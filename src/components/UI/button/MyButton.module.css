@@ -7,3 +7,14 @@
   border: 2px solid teal;
   cursor: pointer;
 }
+
+.myBtn:hover,
+.myBtn:focus {
+  background-color: teal;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+.myBtn:active {
+  color: teal;
+  transition: all 0.5s ease 0s;
+}
