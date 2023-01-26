@@ -33,3 +33,30 @@
   transform: translateX(-250px);
   transition: all 500ms ease-in;
 }
+
+.page__wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  padding: 10px 15px;
+  margin: 0 10px 20px 0;
+  border: 1px solid teal;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.2s ease 0s;
+}
+
+.page:hover {
+  background-color: teal;
+  color: #fff;
+  transform: translateY(-5px);
+}
+.page__current {
+  border: 2px solid #fff;
+  background-color: teal;
+  color: #fff;
+  font-weight: 900;
+}
